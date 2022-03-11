@@ -18,7 +18,7 @@ public class User {
     @Id
     @Column(name="id")
     private int id;
-    public String role;
-    public String password;
-    public String username;
+    private String role;
+    private String password;
+    private String username;
 }
