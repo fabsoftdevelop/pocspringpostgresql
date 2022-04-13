@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pocspringpostgresql
+data:
+  application.properties: |-
+    spring.datasource.url=jdbc:postgresql://postgresql:5432/pocspringpostgresql_db
